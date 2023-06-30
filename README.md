@@ -13,7 +13,8 @@
 
 Deploy this function on flows.network, and you will get a Telegram bot that uses Claude to respond to every question in your Telegram DM or channel/group automatically.
 
-<img width="1151" alt="image" src="https://user-images.githubusercontent.com/45785633/226554378-0ea64870-186d-4449-9ae8-d84a2bedf8f6.png">
+<img width="747" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/5c24d37f-ef45-431b-bc9f-841a5d60925b">
+
 
 The example in the above image is to leverage ChatGPT to generate code comments.
 
