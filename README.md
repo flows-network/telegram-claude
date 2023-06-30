@@ -1,4 +1,4 @@
-# <p align="center">A Telegram Claude bot</p>
+# <p align="center">A Telegram bot powered by Claude</p>
 <p align="center">
   <a href="https://discord.gg/ccZn9ZMfFf">
     <img src="https://img.shields.io/badge/chat-Discord-7289DA?logo=discord" alt="flows.network Discord">
@@ -11,27 +11,23 @@
   </a>
 </p>
 
-Deploy this function on flows.network, and you will get a Telegram bot that uses Claude to respond to every question in your Telegram DM or channel/group automatically.
+[Deploy this flow function on flows.network](https://flows.network/flow/createByTemplate/telegram-claude), and you will get a Telegram bot that uses [Claude](https://www.anthropic.com/index/introducing-claude) to respond to every question in your Telegram DM or channel/group.
+To try it yourself, you can chat with a [demo Telegram bot](https://t.me/flows_claude_test_bot), which is created from the template without any change. 
 
 <img width="747" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/5c24d37f-ef45-431b-bc9f-841a5d60925b">
 
-
-The example in the above image is to leverage ChatGPT to generate code comments.
+The example in the above image asks Claude to generate code comments.
 
 ## Prerequisites
 
-* You will need to bring your own [Claude key](https://www.anthropic.com/earlyaccess). 
-
+* You will need to bring your own [Claude key](https://www.anthropic.com/earlyaccess).
 * You also need a bot token to access the Telegram API. If you don't already have one, go to Telegram to get a bot token from [@botfather](https://telegram.me/BotFather).
-
 
 ## Deploy your Telegram Claude bot in 3 steps
 
 1. Create a bot from a template
 2. Add your Claude API key
-3. Configure the telegram bot
-
-
+3. Add the telegram bot token
 
 ### 1 Create a bot from a template
 
@@ -54,7 +50,7 @@ You will now set up Claude integration. Click on **Connect**, and enter your key
 
 Close the tab and go back to the flow.network page once you are done. Click on **Continue**.
 
-### 3 Add your Telegram token
+### 3 Add the Telegram bot token
 
 You will now set up Telegram integration. Enter your Telegram token here.
 
