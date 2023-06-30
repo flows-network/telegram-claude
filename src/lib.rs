@@ -31,7 +31,7 @@ async fn handler(tele: Telegram, placeholder_text: &str, system_prompt: &str, he
 
         let cf = ClaudeFlows::new();
         let mut co = chat::ChatOptions::default();
-        co.system_prompt = system_prompt;
+        co.system_prompt = some(system_prompt);
 
 
         let text = msg.text().unwrap_or("");
