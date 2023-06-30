@@ -56,7 +56,7 @@ You will now set up Telegram integration. Enter your Telegram token here.
 
 [<img width="450" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5">](https://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5)
 
-Click on **Deploy**.
+Click on **Deploy** button.
 
 ## Give it a try. 
 
