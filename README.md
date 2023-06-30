@@ -6,12 +6,12 @@
   <a href="https://twitter.com/flows_network">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&amp;logoColor=white" alt="flows.network Twitter">
   </a>
-   <a href="https://flows.network/flow/new">
+   <a href="https://flows.network/flow/createByTemplate/telegram-claude">
     <img src="https://img.shields.io/website?up_message=deploy&url=https%3A%2F%2Fflows.network%2Fflow%2Fnew" alt="Create a flow">
   </a>
 </p>
 
-Deploy this function on flows.network, and you will get a Telegram bot that uses ChatGPT to respond to every question in your Telegram DM or channel/group automatically.
+Deploy this function on flows.network, and you will get a Telegram bot that uses Claude to respond to every question in your Telegram DM or channel/group automatically.
 
 <img width="1151" alt="image" src="https://user-images.githubusercontent.com/45785633/226554378-0ea64870-186d-4449-9ae8-d84a2bedf8f6.png">
 
@@ -19,14 +19,14 @@ The example in the above image is to leverage ChatGPT to generate code comments.
 
 ## Prerequisites
 
-* You will need to bring your own [OpenAI API key](https://openai.com/blog/openai-api). If you do not already have one, [sign up here](https://platform.openai.com/signup).
+* You will need to bring your own [Claude key](https://www.anthropic.com/earlyaccess). 
 
 * You also need a bot token to access the Telegram API. If you don't already have one, go to Telegram to get a bot token from [@botfather](https://telegram.me/BotFather).
 
 
 ## Deploy a ChatGPT Telegram bot 
 
-To install the ChatGPT Telegram App, we will use [flows.network](https://flows.network/), a serverless platform that makes deploying your own app quick and easy in just three steps.
+To install the Claude Telegram App, we will use [flows.network](https://flows.network/), a serverless platform that makes deploying your own app quick and easy in just three steps.
 
 ### Prepare the code: fork this repo
 
